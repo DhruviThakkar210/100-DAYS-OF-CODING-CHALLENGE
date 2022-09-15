@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Source+Sans+Pro:200,300,400,600');
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("images/food2.gif");
+  overflow: hidden;
+}
+img
+{
+  width: 90%;
+  height: auto;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 100px;
+  color: greenyellow;
+  
+  letter-spacing: 2px;
+}
+
+.wrapper {
+  display: flex;
+  
+}
+
+.media {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  
+}
+
+.layer {
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  
+  width: 10px;
+  height: 90%;
+  background: #FFF;
+  color: #151E3F;
+  transition: all 0.9s ease;
+  p {
+    transition: all 0.9s ease;
+    transform: scale(0.1)
+  }
+}
+
+p {
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing:1px;
+}
+
+.media:hover .layer {
+  opacity: 0.4;
+  width: 90%;
+  transition: all 0.9s ease;
+  p {
+    transform: scale(1);
+    transition: all 0.9s ease;
+  }
+}
+
+@media (max-width: 800px){
+  body {
+    transform: scale(0.6);
+  }
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+    display: block;
+    > * {
+      margin: 10px;
+    }
+  }
+}
