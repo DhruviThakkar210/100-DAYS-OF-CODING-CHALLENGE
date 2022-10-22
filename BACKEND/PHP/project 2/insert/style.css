@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: url('https://images.wallpaperscraft.com/image/single/lake_forest_snow_130421_1280x720.jpg');
+}
+
+.container {
+    height: 400px;
+    width: 650px;
+    box-shadow: 0px 30px 40px black;
+    display: flex;
+    border-radius: 10px;
+}
+
+.image {
+    flex: 50%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://images.wallpaperscraft.com/image/single/lake_forest_snow_130421_1280x720.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image h1 {
+    margin-top: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+span {
+    color: chartreuse;
+}
+
+.content {
+    flex: 50%;
+    background-color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content h1 {
+    padding: 40px;
+    padding-top: 30px;
+    font-family: 'Niconne', cursive;
+    font-size: 40px;
+    color: #c446c9;
+}
+
+#txt {
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    background-color: rgba(156, 77, 156, 0.3);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+    color: #aa38a4;
+}
+
+label {
+    font-weight: bold;
+    font-size: small;
+}
+
+#txt:focus {
+    outline: none;
+}
+
+.fp {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+    transition: 0.3s;
+}
+
+.fp:hover {
+    color: #c446c9;
+}
+
+button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    border: none;
+    background: linear-gradient(to right, #4568DC, #B06AB3);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
