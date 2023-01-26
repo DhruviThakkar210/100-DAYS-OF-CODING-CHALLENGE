@@ -1,0 +1,24 @@
+ svg {
+      position: relative;
+     }
+ image {
+      object-fit: fill;
+     }
+  #lk {
+       animation: d 2s linear infinite;
+       transform-origin: 50% 50%;
+      }
+@keyframes d {
+    0% {
+         transform: rotateY(0deg);
+      transform: rotateZ(0deg);
+       }
+    50% {
+          transform: rotateY(10deg);
+      transform: rotateZ(0.5deg);
+        }
+    100% {
+           transform: rotateY(0deg);
+      transform: rotateZ(0deg);
+          }
+      }
