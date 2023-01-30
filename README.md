@@ -1,4 +1,4 @@
-<h1 id="Dhruvi" align="center">Dhruvi's awesome web dev projects</h1>
+<h1 id="Dhruvi" align="center"> Web dev projects</h1>
 
 <div align="center">
 
