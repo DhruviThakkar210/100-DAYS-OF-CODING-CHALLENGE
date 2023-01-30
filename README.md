@@ -16,7 +16,7 @@
 
 </div>
 
-<h1 align="center">Connect with us</h1>
+<h1 align="center">Connect with ME</h1>
 
 <h3 align="center">Dhruvi Thakkar</h3>
 <div align="center">
